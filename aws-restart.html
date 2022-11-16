@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport">
+    <title>site-la-plateforme-project</title>
+    <link rel="stylesheet" href="laplateforme.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Roboto Slab">
+    <script src="https://kit.fontawesome.com/12c357b92c.js" crossorigin="anonymous"></script>
+    <!--[if !IE]> <-->
+    <style type="text/CSS">
+        nav li ul {position:absolute; }
+    </style>
+        <!-- <![endif] -->
+
+        <!--[if IE 8] -->
+    <style type="text/CSS">
+    nav li ul {position:absolute; }
+    </style>
+        <!-- [endif] -->
+</head>
+
+<body>
+                
+    <header> <!-- start header -->
+        <div class="logo_img">
+            <a href="https://accueil.html">
+                <img class="logo_laplateforme" src="img/logo_laplateforme.png" alt="Ecole Informatique La Plateforme">
+            </a>
+        </div> <!-- end logo -->
+
+        <nav class="top-menu-nav"><!-- start nav top-menu-nav -->
+            <ul id="top-menu" class="nav">
+                <li class="nav_item"><a href="qui-sommes-nous/">Qui sommes-nous ?</a>
+                    <ul class="sub_menu">
+                        <li class="sub_child"><a href="qui-sommes-nous.html">Qui sommes-nous ?</a></li>
+                        <li class="sub_child"><a href="#">Ils parlent de nous</a></li>
+                    </ul>
+                </li>
+                <li class="nav_item"><a href="#">Cursus</a> <!--nav_item-->
+                    <ul class="sub_menu"> <!--sub_menu-->
+                        <li class="sub_child"><a href="aws-restart.html" aria-current="page">AWS re/Start</a></li>
+                        <li class="sub_child"><a href="https://laplateforme.io/start.html">La Plateforme/Start</a>
+                            <ul class="sub_sub_menu"> <!--sub_sub_menu-->
+                                <li class="second_child"><a href="#">Start – Développeur Web</a></li>
+                                <li class="second_child"><a href="#">Start – Technicien réseaux IP</a></li>
+                                <li class="second_child"><a href="#">Start – Maintenance Dépannage IT</a></li>
+                            </ul>
+                        </li>
+                        <li class="sub_child"><a href="bachelor-it/">Bachelor IT</a>
+                            <ul class="sub_sub-menu">
+                                <li class="second_child"><a href="#">Bachelor IT- 1ère année</a></li>
+                                <li class="second_child"><a href="#">Concepteur Développeur Applications Internet</a></li>
+                                <li class="second_child"><a href="#">Administration Sécurité des SI</a></li>
+                                <li class="second_child"><a href="#">Développeur sécurité</a></li>
+                                <li class="second_child"><a href="#">Développeur IA / Data engineer</a></li>
+                            </ul>
+                        </li>
+                        <li class="sub_child"><a href="#">Innovation Lab</a>
+                            <ul class="sub-sub_menu">
+                                <li class="second_child"><a href="#">Web 3.0 : L’internet de demain</a></li>
+                                <li class="second_child"><a href="#">Habiter demain</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav_item"><a href="#">Spécialisations</a>
+                    <ul class="sub-menu">
+                        <li class="sub_child">Web Coding</a>
+                            <ul class="sub_sub-menu">
+                                <li class="second_child" style="line-height: 2;"><a href="#">Développeur Web &amp; Web Mobile</a></li>
+                                <li class="second_child"><a href="#">Concepteur Développeur d’Applications</a></li>
+                            </ul>
+                        </li>
+                        <li class="sub_child"><a href="#">Cyber Sécurité</a>
+                            <ul class="sub-sub_menu">
+                                <li class="second_child"><a href="#">Développeur sécurité</a></li>
+                                <li class="second_child"><a href="#">Administrateur réseaux et sécurité</a></li>
+                                <li class="second_child"><a href="#">Data Protection Officer (DPO)</a></li>
+                            </ul>
+                        </li>
+                        <li class=""><a href="#">Intelligence Artificielle</a>
+                            <ul class="sub-menu">
+                                <li class="second_child"><a href="#">Développeur Spécialiste IA</a></li>
+                                <li class="second_child"><a href="#">Chef de Projet IA – Data Engineer</a></li>
+                                <li class="second_child"><a href="#">Centrale Digital Lab</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav_item"><a href="#">Entreprise</a>
+                    <ul class="sub-menu">
+                        <li class="sub-child"><a href="#">Recrutez nos talents</a></li>
+                        <li class="sub-child"><a href="#">Vous former au numérique</a></li>
+                        <li class="sub-child"><a href="#">Accélérez votre innovation</a></li>
+                        <li class="sub-child"><a href="#">Accompagnement IA-Data</a></li>
+                        <li class="sub-child"><a href="#">L’Atelier : création de vos outils numériques</a></li>
+                    </ul>
+                </li>
+                <li class="nav_item"><a href="#">Kids</a>
+                    <ul class="sub-menu">
+                        <li class="sub-child"><a href="#">Les activités numériques extra-scolaires</a></li>
+                    </ul>
+                </li>
+                <li class="nav_item"><a href="news.html">News</a></li>
+                <li class="nav_item"><a href="contact.html">Contact</a></li>
+                <li class="nav_item"><a title="Français" href="#" >Français</a>
+                    <ul class="sub-menu">
+                        <li class="sub_child"><a title="English" href="#" >English</a></li>
+                    </ul>
+                </li>
+            </ul>					
+        </nav> <!-- top_menu_nav -->
+                            
+        <div id="top_search"> <!-- start top-search -->
+            <span id="search_icon"></span>
+        </div>
+            
+        <div class="search_outer">
+            <div class="search_form_container">
+                <form role="search" method="get" class="search-form" action="https://laplateforme.io/">
+                <input type="search" class="search-field" placeholder="Rechercher …" value="" name="s" title="Rechercher:">				</form>
+                <span class="close_search_field"></span>
+            </div>
+        </div>
+    </header> <!-- end header -->
+
+    <main>
+        <section class="aws_hero">	
+            <div class="aws_back">
+                <div class="aws_row">
+                    <p><a class="logo_lptf" href="accueil.html"><img src="img/logo-laplateforme.svg" alt="" ></a><a class="logo_aws" href="#"> <img src="img/logo-aws-restart.svg" alt=""></a></p>
+                </div>   
+                <div class="aws_row"></div>
+                    <div class="aws_column">                
+                        <div class="aws_inner">   
+                            <h3 class="wt">Démarrez une carrière <span style="display: block;">dans l’informatique </span>
+                                <span class="or">avec AWS re/start et </span>
+                                <span class="or">construisez votre avenir !</span>
+                            </h3>
+                        </div> <!-- end aws_inner -->
+                        <div class="subscribe"></div>
+                            <p>Inscrivez-vous maintenant<br/>et demandez des informations !</p>
+                        </div>
+                        <div><a class="button_aws_1" href="#" data-trigger-click="form-aws">S'inscrire</a>
+                        </div>
+                    </div>   <!-- end aws_column -->
+                </div> <!-- end aws_row -->
+                    <div class="aws_column">
+                        <img src="img/logo-aws-restart.svg" class="aws">
+                    </div>  <!-- end aws_column -->
+                </div> <!-- end aws_row -->
+            </div> <!-- end aws_back -->
+        </section> <!-- end section aws_hero -->
+
+        <section class="aws_inner_feature">
+            <h2 class="aws_title">Une véritable opportunité de trouver un job dans le numérique !</h2>
+            <div>
+                <div class="aws_row">
+                    <div class="aws_inner_txt">
+                        Amazon Web Services (AWS) est la plateforme cloud la plus complète et la plus largement adoptée au monde. AWS constitue l’écosystème le plus étendu et le plus dynamique, avec des millions d’utilisateurs actifs et des dizaines de milliers de partenaires à travers le monde. La variété de ses clients issus de presque tous les secteurs et de toutes les tailles, notamment des startups, des entreprises et des organisations du secteur public, témoigne des innombrables utilisations possibles d’AWS.
+                        Le programme AWS re/Start est une formation gratuite qui enseigne les fondamentaux du cloud AWS afin d’aider les apprenants à accéder à des postes juniors dans le domaine du cloud.
+                        Grâce à des exercices basés sur des scénarios, des ateliers pratiques et des cours, les apprenants acquièrent des compétences sur Linux, Python, les réseaux, la sécurité et les bases de données relationnelles. 
+                    </div>
+                    <div class="aws_inner_txt">
+                        Les apprenants bénéficient d’une formation spécifique et développent des techniques efficaces de support, de dépannage, de transfert et d’automatisation des tâches de premier niveau.
+                        Après avoir acquis et mis en pratique des compétences techniques sur le Cloud AWS, les apprenants préparent la certification Cloud Practitioner à l’aide d’examens blancs, puis la passent gratuitement.
+                        AWS re/Start et La Plateforme_ accompagnent aussi les apprenants dans leur retour à l’emploi en les coachant et en les préparant aux entretiens avec les employeurs.
+                        Prérequis :
+                        •	Possibilité de se rendre dans les locaux de La Plateforme_
+                        •	Disponibilité du lundi au vendredi pendant 12 semaines
+                        •	Très forte motivation et appétence pour l’informatique et le cloud
+                    </div> 
+                </div>
+            </div>
+            <div class="aws_inner_title">                
+                <h4>Inscrivez-vous maintenant et demandez des informations !</h4><br/>
+            <button class="button_aws_1">S'inscrire</button>
+            </div>   
+        </section>
+        <section class="aws_info">
+            <div class="aws_row">
+                <div class="aws_column">
+                    <div class="col">
+                        <img src="img/icon-computer.svg">
+                        <h4>Pas d’experience en informatique ?</h4>
+                        <p class="bk">Une formation qui dure 3 mois en présentiel 
+                            Aucun prérequis de compétence n’est nécessaire..</p>
+                    </div>
+                </div>
+                <div class="aws_column">
+                    <div class="col">
+                        <img src="img/icon-cloud.svg">
+                        <h4>Certification AWS</h4>
+                        <p class="bk">Préparez la certification Cloud Practitioner à l’aide d’examens blancs et 
+                            passez votre certificat AWS Cloud Practitioner et aussi une certification 
+                            AWS Cloud Architect gratuitement.</p>
+                    </div>
+                </div>
+                <div class="aws_column">
+                    <div class="col">
+                        <img src="img/icon-training.svg">
+                        <h4>Formez-vous gratuitement !</h4>
+                        <p class="bk">La formation AWS re/start est intégralement gratuite et éligible POEC pour les 
+                            demandeurs d’emploi !</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="aws_video">
+
+            <div class="aws_row">
+                <div class="aws_column">
+                    <div class="text_align_left">
+                        <div class="text_inner"><h3 style="text-align: center;" class="">Un programme au-delà du «&nbsp;Cloud&nbsp;» !</h3></div>
+                        </div> <!-- text --_inner -->
+                </div> <!-- .aws_column -->
+            </div> <!-- aws_row -->
+               
+            <div class="aws_row">
+                <div class="aws_column wb">
+                    <div class="aws_img">
+                        <span class="img_wrap "><img src="img/aws-image1.jpg" alt="" title="aws-image1" height="auto" width="auto" sizes="(max-width: 800px) 100vw, 800px">
+                    </div>
+                    <div class="txt_left">
+                        <div class="text_inner">
+                            <ul>
+                                <li style="font-weight: 400;">Fondamentaux du cloud AWS</li>
+                                <li style="font-weight: 400;">Linux</li>
+                                <li style="font-weight: 400;">Python, Base de Données relationnelles</li>
+                                <li style="font-weight: 400;">Réseaux, Sécurité</li>
+                                <li style="font-weight: 400;">Déploiement des services AWS de base</li>
+                            </ul>
+                        </div> <!-- end text_inner -->
+                    </div> <!-- text_align_left -->
+                </div> <!-- aws_column -->
+                
+                <div class="aws_column wb">
+                    <div class="aws_img">
+                        <span class="img_wrap "><img src="img/aws-image2.jpg" alt="" title="aws-image2" height="auto" width="auto" sizes="(max-width: 800px) 100vw, 800px">
+                    </div>
+                    <div class="txt_left">
+                        <div class="text_inner">
+                            <ul>
+                                <li style="font-weight: 400;">Présentation de l’environnement de travail professionnel</li>
+                                <li style="font-weight: 400;">Compréhension des technologies de l’information et en communication</li>
+                                <li style="font-weight: 400;">Utilisation des outils collaboratifs • Certification AWS Cloud Practitioner</li>
+                                <li style="font-weight: 400;"><strong>Avec une certification AWS Cloud Architect en plus gratuitement !</strong></li>
+                            </ul>
+                        </div>
+                    </div> <!-- aws_text -->
+                </div> <!-- aws_column -->
+            </div> <!-- aws_row -->
+               
+        </div>
+
+        <section class="aws_formation">
+
+            <div class="aws_row">
+                <div class="aws_column">
+                    <div class="txt_left">
+                        <div class="text_inner"><h3 style="text-align: center;" class="">Une formation certifiante pour vous !</h3></div>
+                        </div> <!-- text --_inner -->
+                </div> <!-- .aws_column -->
+            </div> <!-- aws_row -->
+               
+            <div class="aws_row">
+                <div class="aws_column wb">
+                    <div class="aws_img">
+                        <span class="img_wrap "><img src="img/aws-image3.jpg" alt="" title="aws-image1" height="auto" width="auto" sizes="(max-width: 800px) 100vw, 800px">
+                    </div>
+                    <div class="txt_left">
+                        <div class="text_inner">
+                            <ul>
+                                <li style="font-weight: 400;">Vous avez 18 ans ou plus</li>
+                                <li style="font-weight: 400;">La formation se déroule en présentiel</li>
+                                <li style="font-weight: 400;">Vous êtes disponible cours à temps plein pendant 12 semaines</li>
+                                <li style="font-weight: 400;">Vous êtes au chômage, sous-employé ou à la recherche d’une nouvelle carrière</li>
+                            </ul>
+                        </div>
+                    </div> <!-- text_align_left -->
+                </div> <!-- aws_column -->
+                
+                <div class="aws_column wb">
+                    <div class="aws_img">
+                        <span class="img_wrap "><img src="img/aws-image4.jpg" alt="" title="aws-image2" height="auto" width="auto" sizes="(max-width: 800px) 100vw, 800px">
+                    </div>
+                    <div class="txt_left">
+                        <div class="text_inner">
+                            <ul>
+                                <li style="font-weight: 400;">Vous avez une forte motivation et appétence pour l’informatique et le Cloud</li>
+                                <li style="font-weight: 400;">Vous avez des notions en anglais</li>
+                                <li style="font-weight: 400;">Utilisation des outils collaboratifs</li>
+                                <li style="font-weight: 400;">Certification AWS Cloud Practitioner</li>
+                                <li style="font-weight: 400;">Vous êtes motivés et prêt à vous engager pour construire votre avenir !</li>
+                            </ul>
+                        </div>
+                    </div> <!-- aws_text -->
+                </div> <!-- aws_column -->
+            </div> <!-- aws_row -->
+            <div class="aws_column">
+                <div class="subscribe"></div>
+                    <p>Inscrivez-vous maintenant<br/>et demandez des informations !</p>
+                </div>
+                    
+                <div>
+                    <a class="button_aws_1" href="#" data-trigger-click="form-aws">S'inscrire</a>
+                </div>
+            </div>
+
+
+
+
+
+    </main>
+
+    <footer>
+    </footer>
+</body>
+</html>
