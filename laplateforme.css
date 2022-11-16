@@ -104,6 +104,9 @@ header {
 #top_menu_nav {
     font-family: 'Roboto Slab',Georgia,"Times New Roman",serif;
 }
+nav.top-menu-nav {
+    z-index: 999999;
+}
 #top_menu {
     font-weight: 500;
 }
