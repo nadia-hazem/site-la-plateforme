@@ -7,8 +7,9 @@ ul li {list-style: none;}
 body {font-family: 'Roboto';}
 p {
     font-size: 16px;
+    line-height: 27px;
     font-family: "Roboto Regular", Helvetica, Arial, Lucida, sans-serif;
-    color: #275FA0;
+    color: #7D7D7D;
 }
 a {
     text-decoration: none;
@@ -16,10 +17,12 @@ a {
     font-family: "Roboto Slab", Georgia, "Times New Roman", serif;
 }
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Roboto Slab", Georgia, "Times New Roman", serif;
+    font-family: "Roboto Slab", Georgia, "Times New Roman", serif; 
+    color: #333;
+    padding-bottom: 10px;
 }
 h1 {font-size: 48px;}
-h2 {font-size: 40px; line-height:40px; color: RGB(51, 102, 153)} 
+h2 {font-size: 40px; line-height:40px; color: #2A609E} 
 h3 {font-size: 30px;}
 h4 {font-size: 22px; font-weight: 700; color: RGB(51, 102, 153)!important;line-height: 1.5em;}
 h5 {font-size: 15px;}
@@ -28,13 +31,16 @@ h6 {font-size: 13px; color: #fff; font-family: "Roboto Thin", "sans-serif"; font
 /*** tools ***/
 .wb {background-color: #fff;}
 .bb {background-color: #000;}
+.f6 {background: #F6F6F6;}
 .wt {color: #fff;}
 .bk {color: #000;} 
 .or {color: #e17b32;}
+.blue {color: #336699;}
+.marge {width: 80%; margin: auto;}
 .center {text-align: center!important;}
 .txtright {text-align: right;}
 .txtleft {text-align: left;}
-.blue {color: #336699;}
+.justify {text-align: justify;}
 .clearfix:after {
     visibility: hidden;
     display: block;
@@ -56,24 +62,39 @@ img {
 /*** row ***/
 .row {
     display: flex;
-    align-items: center;
     margin-bottom: 20px;
-    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
 }
 .row h3 {
     line-height: 0;
+}
+.shade {
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+.wrap {
+    flex-wrap: wrap;
 }
 /*** col ***/
 .col {
     display: flex;
     flex-direction: column;
+    margin: 2%;
 }
-body {background-color: #FBFBFD;}
+.flex2 {
+    width: 45%;
+    margin: auto;
+}
+.flex3 {
+    width: 33.33333333333333%;
+}
+.flex4 {
+    width: 25%;
+}
+body#home {background-color: #FBFBFD;}
+body {background-color: #fff!important;}
 /**********end tools************/
 
 .container {
     width: 100%;
-    max-height: 100vh;
     box-sizing: border-box;
     margin: 0 auto;
     padding: 0;
@@ -373,17 +394,21 @@ button:hover {
 .videos {
     width: 100%;
     margin: auto;
-    display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
 
-.video {
+.video2 {
     display: block;
     width: 50%;
     margin: auto;
     text-align: center;
+}
+.video3 iframe {
+    display: block;
+    width: 33,333333333333%;
+    margin: auto;
+
 }
 
     /*** callto ***/
@@ -491,6 +516,8 @@ ul.social_icons  {
     color: #fff!important;
 }
 
+
+
 /*******************************************/
 /*************** PAGE CONTACT **************/
 /*******************************************/
@@ -523,7 +550,28 @@ section.main .contact { /*** section main de la page contact ***/
     flex: 50%;
     display: flex;
 }
+/**********************************************/
+/********** PAGE QUI SOMMES-NOUS **************/
+/**********************************************/
+.section_1 {
+    width: 80%;
+    padding-top: 14px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    margin: auto;
+}
+.brands {
+    justify-content: center;
+    gap: 5%;
+}
+.brand {
+    padding: 27px 0;
 
+}
+.brand img {
+    display: block;
+}
 /**********************************************/
 /*************** PAGE AWS RESTART **************/
 /**********************************************/
