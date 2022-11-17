@@ -77,7 +77,6 @@ img {
 .col {
     display: flex;
     flex-direction: column;
-    margin: 2%;
 }
 .flex2 {
     width: 45%;
