@@ -427,15 +427,16 @@ button:hover {
     text-align: justify;
     color: #336699!important;
 }
-/*** footer ***/
+
 footer {   
     clear: both;
     background: #313131!important;
     line-height: 2;
     color: #fff!important;
+    margin: auto;
 }
 .mentions {
-    padding: 3% ;
+    padding: 3% 10% 3% 0;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
