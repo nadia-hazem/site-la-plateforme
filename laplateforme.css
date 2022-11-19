@@ -227,46 +227,7 @@ nav li ul {
     padding: 20px 0;
     border-top:RGB(51, 102, 153);
 }
-/*** search icon ***/
-#top_search {
-    float: right;
-    margin: 3px 0 0 22px;
-    position: relative;
-    display: block;
-    width: 18px;
-}
-#search_icon {
-    font-family: ETmodules!important;
-    font-style: normal;
-    font-weight: 400;
-    -webkit-font-feature-settings: normal;
-    font-feature-settings: normal;
-    font-variant: normal;
-    text-transform: none;
-    line-height: 1;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-shadow: 0 0;
-    direction: ltr;
-}
-#search_icon::before {
-
-    z-index: 99;
-    opacity: 1;
-    -webkit-animation: fadeInBottom 1s cubic-bezier(.77,0,.175,1) 1;
-    animation: fadeInBottom 1s cubic-bezier(.77,0,.175,1) 1;
-    content: \U+1F50D;
-    font-size: 17px;
-    left: 0;
-    position: absolute;
-    top: -3px;
-}
-#search_icon:hover {
-    cursor: pointer;
-}
-    /*** end nav ***/
-
-    /*** HERO ***/
+     /*** HERO ***/
 .hero {
     align-items: normal;
     flex-wrap: nowrap;
