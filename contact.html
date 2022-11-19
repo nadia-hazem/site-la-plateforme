@@ -7,7 +7,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>site-la-plateforme-project</title>
         <link rel="stylesheet" href="laplateforme.css">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Roboto+Slab+Roboto+Mono|Lato|Montserrat">>
         <script src="https://kit.fontawesome.com/12c357b92c.js" crossorigin="anonymous"></script>
         <!--[if !IE]> <-->
         <style type="text/CSS">
@@ -132,8 +131,8 @@
         <main class="contact"> <!--main-->
             <h1 class="b title_contact">Vous souhaitez des informations ou</h1>
             <h1 class="b title_contact">Candidater à La Plateforme_&nbsp;?</h1>
-            <section class="marge wb">
-                <h2 class="b sub-title_contact center">Remplissez ce formulaire et nous reviendrons vers vous</h2>
+            <section class="marge pad wb">
+                <h3 class="b sub-title_contact">Remplissez ce formulaire et nous reviendrons vers vous</h3>
                 <!--start form-->
                 
                 <form action="" method="POST"> 
@@ -155,13 +154,11 @@
                                 <OPTION>AWS re/START
                             </SELECT>
                             <!--prénom-->
-                            <label class="required contact_select contact_field" for="first_name"></label> 
-                            <input id="first_name" class="input" name="first_name" type="text" value="" size="30" placeholder="Prénom :"/><br />
-                            <span id="fist_name_validation" class="error_message">
+                            <label class="required contact_select" for="first_name"></label> 
+                            <input id="first_name" class="input" name="first_name" type="text" value="" size="30" placeholder="Prénom :"><br />
                             <!--email-->
-                            <label class="required contact_select contact_field" for="email"></label> 
-                            <input id="email" class="input" name="email" type="text" value="" size="30" placeholder="Email :"/><br />
-                            <span id="email_validation" class="error_message">
+                            <label class="required contact_select" for="email"></label> 
+                            <input id="email" class="input" name="email" type="text" value="" size="30" placeholder="Email :"><br />
                         </div> <!--end col formul-->
 
                         <div class="col flex2 formul">
@@ -172,53 +169,136 @@
                             </SELECT>                               
                             <!--nom-->
                             <label class="required contact_select" for="name"></label> 
-                            <input id="name" class="input" name="name" type="text" value="" size="30" placeholder="Nom :"/><br />
-                            <span id="name_validation" class="error_message"></span>
+                            <input id="name" class="input" name="name" type="text" value="" size="30" placeholder="Nom :"><br />
                             <!--téléphone-->
-                            <label class="required contact_select" for="phone"></label> <input id="phone" class="input" name="phone" type="text" value="" size="30" placeholder="Téléphone :"/><br />
-                            <span id="phone_validation" class="error_message"></span>
+                            <label class="required contact_select" for="phone"></label> <input id="phone" class="input" name="phone" type="text" value="" size="30" placeholder="Téléphone :"><br />
                         </div>
                     </div> <!--end row prenom email-->
 
-                    <div> <!--adresse-->
-                        <label class="required contact_select contact_field" for="adress"></label> <input id="adress" class="input" name="adress" type="text" value="" size="100" placeholder="Adresse :"/><br />
-                        <span id="adress_validation" class="error_message"></span>  
+                    <div width="100%"> <!--adresse-->
+                        <p><label class="required contact_select" for="adress"></label> <input id="adress" class="input" name="adress" type="text" value="" size="30" placeholder="Adresse :"></p><br />
                     </div> <!--end adresse-->
 
                     <div class="row"> <!--row [code postal sondage]-->
                         <div class="col flex2 formul">                
                                 <!--code postal-->
-                                <label class="required contact_select contact_field" for="code_postal"></label> <input id="code_postal" class="input" name="code_postal" type="text" value="" size="30" placeholder="Code postal :"/><br />
-                                <span id="code_postal_validation" class="error_message"></span>
+                                <label class="required contact_select" for="code_postal"></label> <input id="code_postal" class="input" name="code_postal" type="text" value="" size="30" placeholder="Code postal :"><br />
                                 <!--sondage-->
-                                <label class="required contact_select contact_field" for="sondage"></label> 
-                                <input id="sondage" class="input" name="sondage" type="text" value="" size="30" placeholder="Comment nous avez-vous connus : ?"/><br />
-                                <span id="sondage_validation" class="error_message"></span>
+                                <label class="required contact_select" for="sondage"></label> 
+                                <input id="sondage" class="input" name="sondage" type="text" value="" size="30" placeholder="Comment nous avez-vous connus : ?"><br />
                         </div> <!--end col-->
 
                         <div class="col flex2 formul"> <!--row [ville niveau d'études]-->                           
                             <!--ville-->
-                            <label class="required contact_select" for="city"></label> <input id="city" class="input" name="city" type="text" value="" size="30" placeholder="Ville :"/><br />
-                            <span id="city_validation" class="error_message"></span>
+                            <label class="required contact_select" for="city"></label> <input id="city" class="input" name="city" type="text" value="" size="30" placeholder="Ville :"><br />
                             <!--niveau d'études-->
-                            <label class="required contact_select" for="formation"> </label> <input id="formation" class="input" name="formation" type="text" value="" size="30" placeholder="Quel est votre niveau d'études ? :"/><br />
-                            <span id="formation_validation" class="error_message"></span>
+                            <label class="required contact_select" for="formation"> </label> <input id="formation" class="input" name="formation" type="text" value="" size="30" placeholder="Quel est votre niveau d'études ? :"><br />
                         </div> <!--end col-->  
                     </div> <!--end row ville niveau d'études--> 
 
-                    <div class="row"> <!--row [message]-->
-                        <!--message-->
-                        <label class="required contact_select" for="message"></label><br />
-                        <textarea id="message" class="input" name="message" rows="7" cols="100" placeholder="Message :" size="100"></textarea>
-                        <span id="message_validation" class="error_message"></span>
-                    </div> <!--end row message-->          
-                </form> <!--end form-->
+                    <div> <!--[message]-->
+                        <p class="center"><label class="required contact_select" for="message"></label><br />
+                        <textarea id="message" class="input" name="message" rows="7" cols="100" placeholder="Message :" size="30"></textarea></p>
+                    </div> <!--end message-->
+                    
+                    <span class="subscribe__checkbox"><input id="" type="checkbox" name="add_to_mailing_list"><label for="mailing_list_0">Inscrivez-vous à notre newsletter</label></span>
 
-                <div id="after_submit"></div>
+                    <div class="contact_send_box">
+                        <input type="submit" value="Envoyer" class="contact_send">
+                    </div>
+                </form> <!--end form-->
             </div> <!--end section marge wb-->
+
+            <section class="map">
+                <div class="marge">
+                    <h3 class="b sub-title_contact">Une autre question ?</h3>
+                    <p class="b">Nous sommes aussi joignables :</p>
+                    <ul>
+                        <li>– Par email contact@laplateforme.io</li>
+                        <li>– Par téléphone au 04.84.89.43.69 du lundi au vendredi de 9h à 17h</li>
+                        <li>– Sur les réseaux sociaux</li>
+                    </ul>
+                    <div class="row social_icons">
+                        <div class="col start">
+                            <a href="https://www.facebook.com/LaPlateformeIO" class="" title="Suivez sur Facebook" target="_blank"><i class="fa-brands fa-2x fa-square-facebook">&nbsp;</i></a>
+                        </div>
+                        <div class="col start">
+                            <a href="https://www.linkedin.com/company/laplateformeio" class="" title="Suivez sur LinkedIn" target="_blank"><i class="fa-brands fa-2x fa-linkedin">&nbsp;</i></a>
+                        </div>
+                        <div class="col start">
+                            <a href="https://twitter.com/LaPlateformeIO" class="" title="Suivez sur Twitter" target="_blank"><i class="fa-brands fa-2x fa-square-twitter">&nbsp;</i></a>
+                        </div>
+                        <div class="col start">
+                            <a href="https://www.instagram.com/LaPlateformeIO" class="" title="Suivez sur Instagram" target="_blank"><i class="fa-brands fa-2x fa-square-instagram">&nbsp;</i></a>
+                        </div>
+                    </div> <!--end row social_icons-->
+
+                </div> <!--end marge-->
+            </section>
+            <div class="brochure">
+                <span><h3>Télécharger notre brochure</h3></span>
+            </div>
+            
+            <div class="google_map center">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2903.4558253108626!2d5.367935415293446!3d43.30471648291306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12c9c13ddc0211b9%3A0xd1642ae4b32c4bc4!2sEcole%20La%20Plateforme%2C%20le%20Campus%20M%C3%A9diterran%C3%A9en%20du%20Num%C3%A9rique!5e0!3m2!1sfr!2sfr!4v1668854242068!5m2!1sfr!2sfr" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
         </main> <!--end main-->
 
     </div> <!--end container bluebg-->
+
+    <footer>
+        <div class="mentions"> <!--start mentions-->
+            <div class="social">
+                <div class="logo_lplt_bottom">
+                    <img src="img/logo_laplateforme_footer.svg" class="logo_laplateforme_footer">
+                </div>
+                <div>
+                    <ul class="social_icons">
+                        <li> <a href="#"><img src="img/footer-picto-facebook.svg"></a></li>
+                        <li><a href="#"><img src="img/footer-picto-instagram.svg"></a></li>
+                        <li><a href="#"><img src="img/footer-picto-linkedin.svg"></a></li>
+                        <li> <a href="#"><img src="img/footer-picto-twitter.svg"></a></li>
+                        <li><a href="#"><img src="img/youtube.png" class="youtube"></i></a></li>
+                    </ul>                   
+                </div>
+            </div>
+            <div class="col bottom_nav">
+                <ul>
+                    <h4><strong>La Plateforme</strong></h4>
+                    <li><a href="#">Accueil</a></li>
+                    <li><a href="#">Qui sommes-nous ?</a></li>
+                    <li><a href="#">Notre brochure</a></li>
+                    <li><a href="#">Ils parlent de nous</a></li>
+                    <li><a href="#">Annuaire des Plateformeurs</a></li>
+                    <li><a href="#">Alumni des Plateformeurs</a></li>
+                    <li><a href="#">Taxe d'apprentissage</a></li>
+                </ul>
+            </div>
+            <div class="col bottom_nav">
+                <ul>
+                    <h4><strong>Les Formations</strong></h4>
+                    <li><a href="#">La Plateforme/Start</a></li>
+                    <li><a href="#">Coding School</a></li>
+                    <li><a href="#">Bachelor IT</a></li>
+                    <li><a href="#">Artificial Intelligence School</a></li>
+                    <li><a href="#">Cyber Security School</a></li>
+                </ul>
+            </div>
+            <div class="col bottom_nav">                
+                <ul>
+                    <h4><strong>Contact</strong></h4>
+                    <li>8 rue d’hozier, 13002 Marseille</li>
+                    <li>Tel : 04.84.89.43.69</li>
+                </ul>
+                <button class="button_contact_bottom">Contact</button>
+                <img class="april" src="img/logo_April_footer.svg">
+            </div>    
+        </div> <!--end mentions-->
+
+        <div class="credentials">
+            <h5>© La Plateforme. Tous droits réservés. | Mentions légales | Cookies | Référent handicap : Jessica Soriano</h5>
+        </div>
+    </footer>
 </body>
 
 

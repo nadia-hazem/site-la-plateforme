@@ -1,9 +1,37 @@
-/*** site la plateforme project ***/
+/*** FONTS ***/
 
-@font-face {font-family: 'Lato';src: url(https://nadia-hazem.students-laplateforme.io/site-la-plateforme/fonts/);}
-@font-face {font-family: 'RobotoMono';font-weight: bold;src: url(https://nadia-hazem.students-laplateforme.io/site-la-plateforme/fonts/);}
-@font-face {font-family: 'Roboto'; src: url(https://nadia-hazem.students-laplateforme.io/site-la-plateforme/fonts/);}
-@font-face {font-family: 'RobotoSlab'; src: url(https://nadia-hazem.students-laplateforme.io/site-la-plateforme/fonts/);}
+@font-face {
+    font-family: 'lato';
+    src: url('fonts/lato.woff2?#iefix') format('woff2'),
+         url('fonts/lato.woff') format('woff'),
+         url('fonts/lato.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'RobotoMono'; 
+    src: url(fonts/RobotoMono.ttf) format("ttf"), 
+    url('fonts/RobotoMono.woff') format('woff'),
+    url('fonts/RobotoMono.ttf') format('truetype');
+    font-weight: normal; 
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto'; 
+    src: url(fonts/Roboto.ttf) format("ttf"),
+    url('fonts/Roboto.woff') format('woff'),
+    url('fonts/Roboto.ttf') format('truetype');    
+    font-weight: normal; 
+    font-style: normal;
+}
+@font-face {
+    font-family: 'RobotoSlab'; 
+    src: url(fonts/RobotoSlab.ttf) format("ttf"),
+    url('fonts/RobotoSlab.woff') format('woff'),
+    url('fonts/RobotoSlab.ttf') format('truetype');       
+    font-weight: normal; 
+    font-style: normal;
+}
 
 /*** reset ***/
 html,body {margin:0;padding:0} 
@@ -12,21 +40,21 @@ body {font-family: 'Roboto';}
 p {
     font-size: 16px;
     line-height: 27px;
-    font-family: "Roboto Regular", Helvetica, Arial, Lucida, sans-serif;
+    font-family: "Roboto", Georgia, "Times New Roman", serif;
     color: #7D7D7D;
 }
 a {
     color: #fff;
     text-decoration: none;
     font-size: 14px;
-    font-family: "Roboto Slab", Georgia, "Times New Roman", serif;
+    font-family: "RobotoSlab", Georgia, "Times New Roman", serif;
 }
 a:hover {
     color: #E17B32;
     text-decoration: none;
 }
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Roboto Slab", Georgia, "Times New Roman", serif; 
+    font-family: "RobotoSlab", Georgia, "Times New Roman", serif; 
     color: #333;
 }
 h1 {font-size: 48px;}
@@ -34,7 +62,7 @@ h2 {font-size: 40px; line-height:40px; color: #2A609E}
 h3 {font-size: 30px;}
 h4 {font-size: 22px; font-weight: 700; color: RGB(51, 102, 153)!important;line-height: 1.5em;}
 h5 {font-size: 15px;}
-h6 {font-size: 13px; color: #fff; font-family: "Roboto Thin", "sans-serif"; font-weight: 100; text-align: center;}
+h6 {font-size: 13px; color: #fff; font-family: "Roboto-Thin", "sans-serif"; font-weight: 100; text-align: center;}
 .short {line-height: 1em; padding-top: 0;}
 /*** tools ***/
 .wb {background-color: #fff;}
@@ -44,7 +72,7 @@ h6 {font-size: 13px; color: #fff; font-family: "Roboto Thin", "sans-serif"; font
 .bk {color: #000;} 
 .or {color: #e17b32;}
 .blue {color: #336699;}
-.bluebg {background-color: #88C1D0;}
+.bluebg {background-color: #88C1D0; background-size: 50%;}
 .marge {width: 80%; margin: auto;}
 .center {text-align: center!important;}
 .txtright {text-align: right!important;}
@@ -129,7 +157,7 @@ header {
 }
     /*** top_menu/nav ***/
 #top_menu_nav {
-    font-family: 'Roboto Slab',Georgia,"Times New Roman",serif;
+    font-family: 'RobotoSlab',Georgia,"Times New Roman",serif;
 }
 nav.top-menu-nav {
     z-index: 999999;
@@ -268,7 +296,7 @@ nav li ul {
 .hero_txt p {
     font-size: 25px;
     text-align: justify;
-    font-family: "Roboto Slab", Georgia, "Times New Roman", serif;
+    font-family: "RobotoSlab", Georgia, "Times New Roman", serif;
     color: #fff;
     margin: auto;
     line-height: 30px;
@@ -375,7 +403,7 @@ button:hover {
 }
 /***  blurb ***/
 .blurb {
-    font-family: 'Roboto Regular',Helvetica,Arial,Lucida,sans-serif;
+    font-family: 'Roboto',Helvetica,Arial,Lucida,sans-serif;
     font-size: 18px;
     color: #336699!important;
     background-color: #ffffff;
@@ -393,7 +421,7 @@ button:hover {
     position: relative;
     display: inline-block;
     width: 100%;
-    font-family: 'Roboto Regular',Helvetica,Arial,Lucida,sans-serif;
+    font-family: 'Roboto',Helvetica,Arial,Lucida,sans-serif;
 }
 
     /*** footer ***/
@@ -497,7 +525,7 @@ ul.social_icons  {
     margin-top: 1%; 
 }
 .contact h1, .contact h2 {
-    font-family: "Roboto-Mono", "Roboto Slab", Georgia, "Times New Roman", serif;
+    font-family: "RobotoMono", "RobotoSlab", Georgia, "Times New Roman", serif;
     font-size: 42px;
 }
 /*** bottom_nav ***/
@@ -514,7 +542,7 @@ ul.social_icons  {
 }
 /*** ligne de mentions ***/
 .credentials {
-    font-family: "Roboto Regular", Helvetica, Arial, Lucida, sans-serif;
+    font-family: "Roboto", Helvetica, Arial, Lucida, sans-serif;
     font-size: 16px;
     height: 60px;
     margin-top: 0;
@@ -523,6 +551,8 @@ ul.social_icons  {
 .credentials h5 {
     background-color: #000;
     color: #fff!important;
+    line-height: 62px;
+    font-weight: 300;
 }
 
 /**********************************************/
@@ -617,7 +647,7 @@ section.aws_hero {
 .title {
     justify-content: center;
     font-size: 32px;
-    font-family: "Roboto Slab", Georgia, "Times New Roman", serif;
+    font-family: "RobotoSlab", Georgia, "Times New Roman", serif;
     text-align: center;
 }
 /*** section info ***/
@@ -698,31 +728,35 @@ section.news_hero {
 .container_contact {    /*** boite la + exterieure pour modifier le fond ***/
     margin: 0;
     padding: 0;
-   /*  background-color: #88C1D0!important; */
+    color: #0c71c3;
 }
 .title_contact {
-    font-family: "RobotoMono", "Roboto Slab", Georgia, "Times New Roman", serif;
-    font-size: 34px;
+    font-family: "RobotoMono", "RobotoSlab", Georgia, "Times New Roman", serif;
     line-height: 34px;
     color: #fff;
     text-align: center
 }
 .sub-title_contact {
-    font-family: "RobotoMono", "Roboto Slab", Georgia, "Times New Roman", serif;
-    font-size: 34px;
+    font-family: "RobotoMono", "RobotoSlab", Georgia, "Times New Roman", serif;
     line-height: 34px;
     color: #275FA0;
-    text-align: center;
+    text-align: left;
     padding-top: 2%;
+    padding-left: 2%;
 }
 ul.formul {
     width: 100%;
 }
-.contact_field {
-    padding: 0 0 0 3%;
-    margin-bottom: 3%;
-    background-position: 50%;
-    background-size: cover;
+p input {
+    width: 90%;
+    clear: both;
+}
+#message {
+    width: 90%;
+    margin: auto;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(71,74,182,0.12);
 }
 .contact_select {
     padding: 16px 20px 16px 16px;
@@ -731,20 +765,82 @@ ul.formul {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     width: 100%;
+    border-width: 1px;
+    border-color: rgba(71,74,182,0.12);
 }
 input {
     color: #0c71c3;
     font-size: 16px;
     padding: 16px 20px 16px 16px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(71,74,182,0.12);
 }
-.global { /*** bloc identité gère le Hero ***/
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    padding: 3%;
+.subscribe__checkbox {
+    text-align: left;   
+    padding: 2%; 
 }
-.global {
+.subscribe__checkbox input {
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(71,74,182,0.12);
+
+}
+.contact_send_box {
+    float: right;
+    text-align: right;
+    margin-top: -0.5%;
+    margin-right: 4%;
     display: flex;
-    flex-direction: row;
+}
+.contact_send {
+    color: #ffffff!important;
+    border-width: 10px!important;
+    border-color: #275fa0;
+    border-radius: 100px;
+    letter-spacing: 1px;
+    font-size: 16px;
+    font-weight: 700!important;
+    text-transform: uppercase!important;
+    background-color: #275fa0;
+}
+.pad {
+    box-shadow: rgba(24, 22, 34, 0.25) 0px 25px 0 -12px;
+    z-index: 999999;
+    display: block;
+}
+.map {
+    background: #fff;
+    margin-top: -10%;
+    padding-top: 15%;
+    z-index: -10;
+}
+.social_icons {
+    margin-left: 5%;
+}
+i.fa-brand a {
+    margin-right: 1%;
+}
+i.fa-brands.fa-square-facebook {
+    color: #275fa0;
+}
+i.fa-brands.fa-linkedin {
+    color: #007BB6;
+}
+i.fa-brands.fa-square-twitter {
+    color: #1DA1F2;
+}
+i.fa-brands.fa-square-instagram {
+    color: #C13584;
+}
+.google_map iframe {
+    width: 80%;
+    margin: auto;
+    padding: 0;
+    background-color: rgb(229, 227, 223);
+}
+.brochure h3{
+    color: #275fa0;
+    font-family: 'RobotoMono';
+    margin-left: 10%;
 }
