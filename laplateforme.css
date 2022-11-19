@@ -436,7 +436,7 @@ footer {
     margin: auto;
 }
 .mentions {
-    padding: 3% 10% 3% 0;
+    padding: 3% 10% 0 0;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
