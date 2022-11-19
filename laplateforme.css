@@ -35,7 +35,7 @@
 
 /*** reset ***/
 html,body {margin:0;padding:0} 
-ul li {list-style: none;}
+ul li {list-style: none; color: #7D7D7D}
 body {font-family: 'Roboto';}
 p {
     font-size: 16px;
@@ -72,13 +72,13 @@ h6 {font-size: 13px; color: #fff; font-family: "Roboto-Thin", "sans-serif"; font
 .bk {color: #000;} 
 .or {color: #e17b32;}
 .blue {color: #336699;}
-.bluebg {background-color: #88C1D0; background-size: 50%;}
 .marge {width: 80%; margin: auto;}
 .center {text-align: center!important;}
 .txtright {text-align: right!important;}
 .txtleft {text-align: left!important;}
 .justify {text-align: justify;}
 .auto { margin: auto;}
+.zero {margin: 0;}
 .img_wrap {
     display: inline-block;
     position: relative;
@@ -89,10 +89,10 @@ img {
     width: 100%;
     height: 100%;
 }
+
 /*** row ***/
 .row {
     display: flex;
-    margin: 2% auto;
 }
 .shade {
     box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
@@ -131,7 +131,6 @@ body {background-color: #fff!important;}
     width: 100%;
     box-sizing: border-box;
     margin: 0 auto;
-    padding: 2%;
 }
     /*** HEADER ***/
 header {
@@ -356,7 +355,7 @@ button:hover {
     font-weight: 700!important;
     text-transform: uppercase!important;
     background-color: #ffca4b;
-    margin: 0 0 20px 0;
+    margin: 20px 0 20px 0;
     padding: 0.6em 1em;
     line-height: 1.7em!important;
 }
@@ -407,7 +406,7 @@ button:hover {
     font-size: 18px;
     color: #336699!important;
     background-color: #ffffff;
-    padding-top: 10px!important;
+    padding-top: 5%!important;
     padding-right: 40px!important;
     padding-bottom: 15px!important;
     padding-left: 40px!important;
@@ -596,6 +595,7 @@ ul.social_icons  {
     font-size: 20px;
     background-color: #e17b32;
     margin: 0 0 2%;
+    padding: 1% 2%;
     transition: all 300ms ease 0ms;
     text-align: center;
 }
@@ -607,24 +607,30 @@ ul.social_icons  {
     margin: 0 0 2% 0;
     padding: 2% 0;
 }
-.logo_aws {
-    width:157px;
-    margin: 0 0 2% 0;
-    padding: 2% 0;
+img.logo_aws {
+    width: 157px;
+    margin-top: -91%;
+    margin-left: 30%;
+
 }
 .puces {
     list-style: circle!important;
 }
 /*** section hero ***/
 
-section.aws_hero {
+section.aws {
     width: 100vw;
     background-color: #000;
     background-position: right;
     color: #fff;
 
  }
+ .aws_hero {
+    justify-content: space-around;
+    gap: 34%;
+ }
  .aws_back {  
+    padding: 2% 0;
     background: url(img/landing-aws.jpg) no-repeat;
     background-size: initial;
     background-position: bottom right;
@@ -632,7 +638,7 @@ section.aws_hero {
 
  }
 .case {
-    margin: 5%;
+    margin: 0 5%;
 }
 .case img {
     width: 120px;
@@ -641,8 +647,9 @@ section.aws_hero {
     text-align: center;
 }
 /*** section cloud ***/
-.aws_cloud {
-    background: #E17B32;
+.aws_cloud {    
+    background-color:#E17B32;
+    padding: 3% 0;
 }
 .title {
     justify-content: center;
@@ -653,14 +660,22 @@ section.aws_hero {
 /*** section info ***/
 .aws_info {
     background: #F2F2F2;
+    padding: 5% 0 ;
 }
 .aws_img {
     margin: 0 2%;
     text-align: center;
+}.aws_img1 {
+    width: 427px;
+    height: 214px; 
 }
 /*** section amazon ***/
 .amazon {
     width: 30%;
+    margin: 5% auto;
+}
+.amazon ul {
+    padding: 0 5%;
 }
 /*** section aws formations ***/
 .aws_formation {
@@ -701,9 +716,12 @@ section.news_hero {
  }
  .news_card {
     padding: 0;
-    margin: 2%;
+    margin: 20px;
     flex-basis: 30,3333%!important;
     box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
+ }
+ .news_card h4 {
+    padding: 0 10%;
  }
  .news_card img {
     width: 320px;
@@ -726,15 +744,20 @@ section.news_hero {
 /*************** PAGE CONTACT **************/
 /*******************************************/
 .container_contact {    /*** boite la + exterieure pour modifier le fond ***/
-    margin: 0;
+    margin: 2% 0 0 0;
     padding: 0;
     color: #0c71c3;
+}
+.bluebg {
+    background-color: #88C1D0; 
+    background-size: 50%; 
+    padding: 2% 0; 
 }
 .title_contact {
     font-family: "RobotoMono", "RobotoSlab", Georgia, "Times New Roman", serif;
     line-height: 34px;
     color: #fff;
-    text-align: center
+    text-align: center;
 }
 .sub-title_contact {
     font-family: "RobotoMono", "RobotoSlab", Georgia, "Times New Roman", serif;
